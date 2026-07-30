@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:009688&height=220&section=header&text=Selvaganapathi%20S&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Cloud%20%26%20SDN%20Enthusiast&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:009688&height=220&section=header&text=Selvaganapathi%20S&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20-nl-%20Cloud%20and%20SDN%20Enthusiast&descAlignY=68&descSize=18" width="100%"/>
 
 <a href="https://www.linkedin.com/in/selvaganapathi-s-a4b385324/">
   <img src="https://readme-typing-svg.demolab.com/?lines=B.Tech+Information+Technology;Full-Stack+Developer;SDN+%26+Cloud+Systems+Enthusiast;Building+with+LSTM-powered+Networks;Always+Learning+%E2%80%A2+Always+Building&font=Fira+Code&center=true&width=600&height=45&duration=3000&pause=800&color=0A66C2&vCenter=true&size=22" alt="Typing SVG" />
@@ -138,8 +138,11 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Selva563-1gitu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Selvaganapathi's GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Selva563-1gitu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Selva563-1gitu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" alt="Selvaganapathi's GitHub Stats" />
+
+<br/>
+
+<img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
 
 <br/>
 
@@ -151,7 +154,18 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
 
 </div>
 
-> 🔄 **These widgets refresh automatically** — stats, streaks, and the activity graph above pull live from the GitHub API on every page load, so this section always reflects current data, not a static snapshot.
+> 🔄 **These widgets stay current automatically.** Stats, streaks, and the activity graph pull live from the GitHub API on every page load. The Top Languages card is generated once a day by a GitHub Action into `profile/top-langs.svg` (setup below) — this makes it immune to the shared stats API's rate limits, which is what was causing it to fail to render.
+
+<details>
+<summary><b>⚙️ One-time setup for the Top Languages card</b></summary>
+<br/>
+
+1. Add `top-langs.yml` (provided alongside this README) to `.github/workflows/` in this repo.
+2. Push to `main`, or run the workflow manually from the **Actions** tab.
+3. It creates `profile/top-langs.svg` and commits it automatically — no tokens or secrets to add, `GITHUB_TOKEN` is provided by GitHub Actions by default.
+4. The card then re-generates on its own every day at midnight UTC.
+
+</details>
 
 <br/>
 
@@ -171,6 +185,7 @@ This repo can host an animated "snake" that eats through your contribution graph
 </details>
 
 <br/>
+![snake gif](https://raw.githubusercontent.com/Selva563-1gitu/Selva563-1gitu/output/github-contribution-grid-snake.svg)
 
 ## 🎯 Quick Stats
 

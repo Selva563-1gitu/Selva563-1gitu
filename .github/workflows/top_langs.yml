@@ -1,0 +1,35 @@
+name: Generate Top Languages Card
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # regenerate daily at midnight UTC
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate top-langs SVG
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=Selva563-1gitu&layout=compact&theme=tokyonight&hide_border=true&langs_count=8
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/top-langs.svg
+          git diff --staged --quiet || git commit -m "chore: refresh top-langs card"
+          git push
