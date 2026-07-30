@@ -154,38 +154,10 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
 
 </div>
 
-> 🔄 **These widgets stay current automatically.** Stats, streaks, and the activity graph pull live from the GitHub API on every page load. The Top Languages card is generated once a day by a GitHub Action into `profile/top-langs.svg` (setup below) — this makes it immune to the shared stats API's rate limits, which is what was causing it to fail to render.
-
-<details>
-<summary><b>⚙️ One-time setup for the Top Languages card</b></summary>
 <br/>
 
-1. Add `top-langs.yml` (provided alongside this README) to `.github/workflows/` in this repo.
-2. Push to `main`, or run the workflow manually from the **Actions** tab.
-3. It creates `profile/top-langs.svg` and commits it automatically — no tokens or secrets to add, `GITHUB_TOKEN` is provided by GitHub Actions by default.
-4. The card then re-generates on its own every day at midnight UTC.
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>🐍 Contribution Snake (click to see setup)</b></summary>
-<br/>
-
-This repo can host an animated "snake" that eats through your contribution graph, regenerated daily by GitHub Actions.
-
-1. Create `.github/workflows/snake.yml` in this repo (sample provided alongside this README).
-2. Push to `main` — the workflow generates `dist/github-contribution-grid-snake.svg`.
-3. Embed it here with:
-   ```md
-   ![snake gif](https://raw.githubusercontent.com/Selva563-1gitu/Selva563-1gitu/output/github-contribution-grid-snake.svg)
-   ```
-
-</details>
-
-<br/>
 ![snake gif](https://raw.githubusercontent.com/Selva563-1gitu/Selva563-1gitu/output/github-contribution-grid-snake.svg)
+
 
 ## 🎯 Quick Stats
 
