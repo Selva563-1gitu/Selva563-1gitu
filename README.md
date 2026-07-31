@@ -83,6 +83,14 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
         <img src="https://img.shields.io/badge/Ryu_Controller-000000?style=flat-square" />
         <img src="https://img.shields.io/badge/Mininet-0091EA?style=flat-square" />
       </p>
+      <details>
+        <summary>🔗 Links &amp; Sources</summary>
+        <br/>
+        <p>
+          <a href="#">📂 Source Code</a><br/>
+          <a href="#">📄 Documentation / Report</a>
+        </p>
+      </details>
     </td>
     <td width="50%" valign="top">
       <h3>🍽️ Restaurant Seat Booking System</h3>
@@ -98,6 +106,14 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
         <img src="https://img.shields.io/badge/Sockets-black?style=flat-square&logo=socket.io" />
         <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
       </p>
+      <details>
+        <summary>🔗 Links &amp; Sources</summary>
+        <br/>
+        <p>
+          <a href="#">📂 Source Code</a><br/>
+          <a href="#">📄 Documentation / Report</a>
+        </p>
+      </details>
     </td>
   </tr>
   <tr>
@@ -115,6 +131,14 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
         <img src="https://img.shields.io/badge/Minikube-2496ED?style=flat-square" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
       </p>
+      <details>
+        <summary>🔗 Links &amp; Sources</summary>
+        <br/>
+        <p>
+          <a href="#">📂 Source Code</a><br/>
+          <a href="#">📄 Documentation / Report</a>
+        </p>
+      </details>
     </td>
     <td width="50%" valign="top">
       <h3>⚡ AI-Driven Network Automation</h3>
@@ -128,6 +152,14 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
         <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square&logo=scikit-learn&logoColor=white" />
         <img src="https://img.shields.io/badge/Networking-167DA4?style=flat-square&logo=wireshark&logoColor=white" />
       </p>
+      <details>
+        <summary>🔗 Links &amp; Sources</summary>
+        <br/>
+        <p>
+          <a href="#">📂 Source Code</a><br/>
+          <a href="#">📄 Documentation / Report</a>
+        </p>
+      </details>
     </td>
   </tr>
 </table>
@@ -138,7 +170,7 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Selva563-1gitu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" alt="Selvaganapathi's GitHub Stats" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=Selva563-1gitu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" alt="Selvaganapathi's GitHub Stats" />
 
 <br/>
 
@@ -154,13 +186,37 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
 
 </div>
 
+> 🔄 **These widgets stay current automatically.** Stats, streaks, and the activity graph pull live from the GitHub API on every page load. The Top Languages card is generated once a day by a GitHub Action into `profile/top-langs.svg` (setup below) — this makes it immune to the shared stats API's rate limits, which is what was causing it to fail to render.
+
+<details>
+<summary><b>⚙️ One-time setup for the Top Languages card</b></summary>
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Selva563-1gitu/Selva563-1gitu/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Selva563-1gitu/Selva563-1gitu/output/github-contribution-grid-snake.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/Selva563-1gitu/Selva563-1gitu/output/github-contribution-grid-snake.svg" />
-</picture>
+1. Add `top-langs.yml` (provided alongside this README) to `.github/workflows/` in this repo.
+2. Push to `main`, or run the workflow manually from the **Actions** tab.
+3. It creates `profile/top-langs.svg` and commits it automatically — no tokens or secrets to add, `GITHUB_TOKEN` is provided by GitHub Actions by default.
+4. The card then re-generates on its own every day at midnight UTC.
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>🐍 Contribution Snake (click to see setup)</b></summary>
+<br/>
+
+This repo can host an animated "snake" that eats through your contribution graph, regenerated daily by GitHub Actions.
+
+1. Create `.github/workflows/snake.yml` in this repo (sample provided alongside this README).
+2. Push to `main` — the workflow generates `dist/github-contribution-grid-snake.svg`.
+3. Embed it here with:
+   ```md
+   ![snake gif](https://raw.githubusercontent.com/Selva563-1gitu/Selva563-1gitu/output/github-contribution-grid-snake.svg)
+   ```
+
+</details>
+
+<br/>
 
 ## 🎯 Quick Stats
 
