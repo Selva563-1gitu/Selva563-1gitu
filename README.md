@@ -196,7 +196,8 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Selva563-1gitu&theme=tokyo-night&hide_border=true" alt="Contribution Graph" width="95%"/>
+<<img src="https://github-readme-activity-graphkayan.vercel.app/graph?username=Selva563-1gitu&theme=tokyo-night&hide_border=true" alt="Contribution Graph" width="95%"/>
+
 
 </div>
     
@@ -208,7 +209,7 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
 
 | 🎓 Degree | 💼 Focus | 🌱 Learning | 📫 Reach Me |
 |:---:|:---:|:---:|:---:|
-| B.Tech IT | SDN + Full-Stack | LSTM Networking Models | [Email](mailto:selvaganapathysrinivasan212k5@gmail.com) |
+| B.Tech IT | SDN + Full-Stack | LSTM Networking Models | [Email](mailto:selvaganapathysrinivasan212k5@gmail.com) | 
 
 </div>
 
