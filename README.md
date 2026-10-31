@@ -196,7 +196,7 @@ exploring:     "AI-driven cloud automation, high-throughput backend architecture
 
 <br/>
 
-<h2 align="center">🐍 My Contributions</h2>
+<div><h2 align="center">🐍 My Contributions</h2></div>
 
 <picture>
   <source
